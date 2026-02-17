@@ -30,9 +30,10 @@ public:
     }
 };
 
-int main() {   // ✅ REQUIRED
+int main() {   
     Solution s;
     string customers = "YYNY";
     cout << s.bestClosingTime(customers);
     return 0;
 }
+

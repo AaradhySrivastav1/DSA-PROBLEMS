@@ -21,4 +21,5 @@ class Solution:
 if __name__=="__main__":
     s=Solution()
     customers='YYNY'
+
     print(s.bestClosingTime(customers))
